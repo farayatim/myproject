@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <title>Gallery</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+    <body>
+        <style>
+            .container{
+                width: 100%;
+                height: 100vh;
+                background-image: linear-gradient(#000000d0,transparent), url(image/wallpaper.jpg);
+                background-size: cover;
+                background-position: center;
+                padding: 0 8%;
+                position: relative;
+            }
+            body{
+                background-color: #164a27;
+            }
+            .row{
+                height: 100%;
+                align-items: center;
+            }
+            .col{
+                flex-basis: content;
+            }
+            h1{
+                font-size: 90px;
+                color: #ffffff;
+                text-align: center;
+                padding-top: 4%;
+            }
+            h2{
+                color: #ffffff;
+                font-size: 15px;
+                text-align: start;
+            }
+            p{
+                color: #ffffff;
+                font-size: 25px;
+                line-height: 30px;
+                text-align: center;
+                text-shadow: 1px 1.5px #000000d3;
+            }
+            .card{
+                width: 300px;
+                height: 370px;
+                display: inline-table;
+                border-radius: 10px;
+                padding: 25px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 30px 17px;
+                background-position: center;
+                background-size: cover;
+                border-color: #ffffff;
+                border-style: dashed;
+                box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+                transition: transform 0.4s;
+            }
+            .card1{
+                background-image: url(image/scenery_1.jpg);
+            }
+            .card2{
+                background-image: url(image/scenery_2.jpg);
+            }
+            .card3{
+                background-image: url(image/scenery_3.jpg);
+            }
+            .card4{
+                background-image: url(image/scenery_4.jpg);
+            }
+            .card5{
+                background-image: url(image/scenery_5.jpg);
+            }
+            .card6{
+                background-image: url(image/scenery_6.jpg);
+            }
+            .card7{
+                background-image: url(image/scenery_7.jpg);
+            }
+            .card8{
+                background-image: url(image/scenery_8.jpg);
+            }
+            .card:hover{
+                transform: translateY(-20px);
+            }
+            .social-icons{
+                position: absolute;
+                bottom: 80%;
+            }
+            .social-icons img{
+                width: 50px;
+                display: block;
+                padding: 40px 0;
+            }
+        </style>
+
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="aboutme.html" target="_blank">About Me</a></li>
+                    <li><a href="education.html" target="_blank">Education</a></li>
+                    <li><a href="families.html" target="_blank">Family</a></li>
+                    <li><a href="friends.html" target="_blank">Friends</a></li>
+                    <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                </ul>
+            </nav>
+            <div class="social-icons">
+                <a href="index.html"><img src="image/flower.png"></a>
+            </div>
+            <br><br><br><br>
+            <h1>The collection<br>of Scenery Photos</h1> <br>
+                <p>Based on this page, this is my favourite scenery photos
+                <br>that i have been collected from several places.
+                Lets take<br>a look at the photos.</p>
+        </div>
+
+        <br><br>
+
+        <div class="row">
+            <div class="col">
+                <div class="card card1">
+                    <h2>15 March 2022<br>UiTM, Rembau.</h2>
+                </div>
+
+                <div class="card card2">
+                    <h2>25 April 2022<br>UiTM, Rembau.</h2>
+                </div>
+
+                <div class="card card3">
+                    <h2>7 May 2022<br>UiTM, Rembau.</h2>
+                </div>
+
+                <div class="card card4">
+                    <h2>19 May 2022<br>UiTM, Rembau.</h2>
+                </div>
+
+                <div class="card card5">
+                    <h2>
+                        <font style="color:#000524;"> 
+                        30 June 2022<br>ETS Ipoh to KL Sentral
+                        </font>
+                    </h2>
+                </div>
+
+                <div class="card card6">
+                    <h2>19 July 2022<br>Gua Kek Look Tong, Ipoh.</h2>
+                </div>
+
+                <div class="card card7">
+                    <h2>
+                        <font style="color:#0c0c0c;"> 
+                        5 August 2022<br>Warisan Merdeka Tower (KL118), Kuala Lumpur.
+                        </font>
+                    </h2>
+                </div>
+
+                <div class="card card8">
+                    <h2>2 September 2022<br>UiTM, Rembau.</h2>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </body>
+</html>
